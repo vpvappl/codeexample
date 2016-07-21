@@ -5,7 +5,6 @@ var_dir=`pwd`'/'
 var_path_file=$var_dir'partners_utf.yml.gz'
 gunzip -f $var_path_file
 
-
 ### 2 -------------------------------------------------------------
 
 #!/bin/sh
