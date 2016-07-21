@@ -18,9 +18,9 @@ $stop_arr = array('\\','/');
  * 2. подключение к базе данных -----------------------------------------------
  */
 $host="localhost";
-$user="admin_fast";
-$password="admin_fast";
-$db="admin_fast";
+$user="user";
+$password="password";
+$db="database";
 $link = mysql_connect($host, $user, $password);
 mysql_select_db($db);
 mysql_set_charset('utf8');
