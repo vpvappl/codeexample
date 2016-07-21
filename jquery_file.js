@@ -27,3 +27,12 @@ $(document).ready(function(){
     }, 3000);    
     
 }); 
+
+// 2 ---------------------------------------
+
+var cls = $('.mmk-content img').attr('class');
+if (cls !== 'empty') {
+	$('.mmk-content img').addClass('img-thumbnail');
+}
+$('.mmk-content img.img-responsive').removeClass('img-thumbnail');
+$('table.descr table').addClass('table table-bordered');
