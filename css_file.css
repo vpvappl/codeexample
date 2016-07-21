@@ -1,0 +1,346 @@
+.litres {
+    margin-bottom: 20px!important;
+}
+.litres .panel-heading {
+    font-size: 15px;
+    height: 60px;
+    overflow: hidden;
+}
+.litres_img {
+    height: 240px;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+}
+.litres .panel-footer {
+    font-size: 12px;
+    padding: 5px 7px;
+    text-align: center;
+    height: 34px;
+    overflow: hidden;
+    line-height: 2;
+}
+#vk_comments, .fb-comments, .fb-comments iframe, .fb-comments span {
+    width: 100%!important;
+}
+#tabBtnGroup {
+    margin-bottom: 10px;
+}
+#commentsTab {
+    border: 1px solid #ddd;
+}
+@media (min-width:768px) {
+    .modal-dialog.donate {
+		width: 475px;
+		margin: 30px auto;
+	}
+}
+@media (max-width:768px) {
+    #top-carousel .carousel-indicators {
+		margin-bottom: -3px!important;
+	}
+}
+a.from_here {
+    height: 16px;
+    padding: 4px 8px 4px 27px;
+    margin: 25px 0;
+    background: url(http://site.ru/favicon.ico) 5px 5px no-repeat #f7f7f7;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+.jew-head {
+    height: 70px!important;
+}
+.pict-left {
+    display: block;
+    float: left;
+    margin: 0 15px 0 0;
+}
+ol.important_list {
+    margin: 0;
+    padding: 0;
+    list-style: none inside;
+}
+ol.important_list li {
+    display: inline-block;
+    background: #f4f4f4;
+    padding: 3px 7px;
+    border-left: 3px solid #ccc;
+    font-size: 16px;
+    margin: 0 10px 10px 0;
+}
+ol.important_list li i.glyphicon, ol.important_list span.glyphicon {
+    margin-left: -8px;
+    color: #ccc!important;
+    margin-right: 7px!important;
+    font-size: 13px!important;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #b13f3b;
+    border-color: transparent;
+}
+.list-group-item.active a, .list-group-item.active:focus a, .list-group-item.active:hover a {
+    color: #fff;
+}
+#content {
+    line-height: 1.5;
+    color: #555;
+}
+#content h3 {
+    color: #ca8987;
+    font-style: normal;
+    font-size: 18px;
+    margin: 40px 0 10px;
+}
+#content h3.big:first-letter {
+    background: #ca8987;
+    color: #fff;
+    padding: 0 7px;
+}
+#content h1 a, #content h2 a, .anons h3 a {
+    color: #b13f3b;
+    text-decoration: underline;
+}
+.carousel h3 {
+    font-size: 22px!important;
+    margin: 20px 0 10px!important;
+}
+#content ul, #content ul#myTabs {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 0;
+    font-size: 15px;
+}
+#content ul {
+    margin-bottom: 25px;
+    padding-left: 24px;
+}
+#content ul#myTabs {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+#content ul li {
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+#content p:last-child, #content ul li:last-child {
+    margin-bottom: 0;
+}
+#content p {
+    margin-bottom: 20px;
+}
+#content h1, #content h2 {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0 0 25px;
+    padding: 0;
+}
+#content h1 a, #content h2 a {
+    font-weight: lighter;
+}
+.anons {
+    padding: 0 0 20px;
+    margin-bottom: 35px;
+    border-bottom: 1px dashed #ccc;
+}
+.anons .inner, .anons h3 {
+    margin-bottom: 15px;
+}
+.anons h3 {
+    font-size: 18px;
+}
+.anons .inner_nomarg {
+    margin-bottom: 0;
+}
+.btn-float {
+    float: left;
+    margin: 0 20px 20px 0;
+    word-break: break-all!important;
+}
+blockquote, blockquote.accent {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.btn .badge {
+    background-color: #999;
+    border-radius: 5px;
+}
+.btn:hover .badge {
+    background-color: #333;
+}
+blockquote.accent {
+    background: #f3f3f3!important;
+    border-left: 5px solid #a70000!important;
+    font-style: normal!important;
+}
+blockquote {
+    font-style: italic;
+    background: #f3f3f3;
+    border-left: 2px solid #ccc;
+}
+.archive-descr {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #777;
+    border-left: none;
+    background: #f3f3f3;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#bot-carousel, #bot-carousel a, #carousel, h3.slide, h3.slide a {
+    color: #fff;
+}
+#carousel {
+    background: #b13f3b;
+    padding-bottom: 12px;
+    padding-right: 120px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    left: 30px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    right: 30px;
+}
+#bot-carousel {
+    background: #b13f3b;
+    padding-left: 65px;
+    padding-right: 60px;
+}
+#bot-carousel .carousel-inner .item {
+    overflow: hidden;
+}
+#bot-carousel .carousel-inner .item p {
+    display: block;
+    height: 50px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#top-carousel {
+    font-size: 15px;
+}
+#top-carousel a {
+    color: #777;
+}
+#top-carousel .carousel-caption {
+    background: #00f;
+}
+#top-carousel .carousel-indicators {
+    margin-bottom: -15px;
+}
+#top-carousel .carousel-inner {
+    border: 1px solid #ddd;
+    height: 130px;
+}
+#top-carousel .carousel-inner .item {
+    padding: 12px;
+    height: 100px;
+    overflow: hidden;
+}
+#top-carousel .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0, 0, 0, 0);
+}
+#top-carousel .carousel-indicators .active {
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: gray;
+}
+body {
+    background-color: #ddd;
+    background-image: url('http://cdn.site.ru/src/bg01.gif');
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+.rus-inner-white {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, .3);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .35);
+}
+.marg7top {
+    margin-top: 7px;
+}
+.panel {
+    border-radius: 0!important;
+}
+#wrap {
+    max-width: 1240px;
+}
+.col-md-15 {
+    font-size: 13px!important;
+}
+.col-md-15 .panel {
+    box-shadow: none;
+}
+#myTabContent {
+    border: 1px solid #ddd;
+    border-top-color: transparent;
+    padding: 10px 10px 0;
+}
+.share-icon {
+    float: left;
+    display: inline;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    padding: 0!important;
+    vertical-align: top;
+    border: 0;
+    margin-right: 5px;
+    background: url('http://cdn.site.ru/src/social-icon.png') 0 99px no-repeat;
+}
+.share-icon_vkontakte {
+    background-position: 0 0;
+}
+.share-icon_facebook {
+    background-position: 0 -68px;
+}
+.share-icon_twitter {
+    background-position: 0 -51px;
+}
+.share-icon_odnoklassniki {
+    background-position: 0 -170px;
+}
+.share-icon_moimir {
+    background-position: 0 -85px;
+}
+.share-icon_lj {
+    background-position: 0 -34px;
+}
+.share-icon_gplus {
+    background-position: 0 -426px;
+}
+.biskni_banner_footer {
+    display: block;
+    height: 100px;
+    background-color: #6b9ca0;
+    background-image: url(http://cdn.site.ru/biskni/logo_size.png);
+    background-repeat: no-repeat;
+    background-position: center right 10px;
+    background-size: 180px;
+    padding: 20px;
+    color: #fff;
+}
+.biskni_banner_footer strong {
+    opacity: .7;
+    font-size: 26px;
+}
+.biskni_banner_footer .offset {
+    display: inline-block;
+    padding-left: 190px;
+}
+.biskni_banner_footer:hover {
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
+}
