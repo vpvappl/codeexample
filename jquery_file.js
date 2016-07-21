@@ -30,6 +30,43 @@ $(document).ready(function(){
 
 // 2 ---------------------------------------
 
+jQuery("iframe").removeAttr("frameborder").removeAttr("allowfullscreen");
+		
+jQuery("#start_search").click(function () {
+	jQuery("#search_form").slideToggle("slow");
+}); 
+		
+jQuery("[name=radiogroup],[name=radiocontext]").click(function(){
+  var gets = jQuery(this + ":checked").attr('id');
+  if(gets == 'inlinks' || gets == 'inphoto' || gets == 'invideo'){
+	  jQuery("#in_title").attr('checked','checked');
+	  jQuery("#in_content").attr('disabled','disabled');
+  }else{
+	  jQuery("#in_content").removeAttr('disabled');
+  }
+  jQuery("#ajaxsearch").val('');
+  jQuery("#showsearch").html('');
+  jQuery("#showsearch").slideUp();      
+});
+
+jQuery("#ajaxsearch").keyup(function(){
+	var what = jQuery("#ajaxsearch").val();
+	var where = jQuery('[name=radiogroup]:checked').attr('id');
+	var whereis = jQuery('[name=radiogroup]:checked').attr('title');
+	var context = jQuery('[name=radiocontext]:checked').attr('id');      
+  if(what.length > 2){                  
+	jQuery.get('/search/ajaxsearch/', {where:where,what:what,context:context}, function(res){
+		jQuery("#showsearch").html("<b class='resultb'>Результаты поиска в материалах &laquo;"+whereis+"&raquo; по запросу &laquo;"+what+"&raquo;:</b>" + res);
+		jQuery("#showsearch").slideDown();
+	});
+  }else{
+	  jQuery("#showsearch").html('');
+	  jQuery("#showsearch").slideUp();
+  }    
+});
+
+// 3 ---------------------------------------
+
 var cls = $('.mmk-content img').attr('class');
 if (cls !== 'empty') {
 	$('.mmk-content img').addClass('img-thumbnail');
